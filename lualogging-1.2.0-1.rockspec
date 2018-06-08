@@ -1,18 +1,11 @@
--- This file was automatically generated for the LuaDist project.
-
+#!/usr/bin/env lua
 
 package	= "lualogging"
 version	= "1.2.0-1"
--- LuaDist source
-source = {
-  tag = "1.2.0-1",
-  url = "git://github.com/LuaDist-testing/lualogging.git"
+source	= {
+	url	= "git://github.com/Neopallium/lualogging.git",
+	branch = "v1.2.0",
 }
--- Original source
--- source	= {
--- 	url	= "git://github.com/Neopallium/lualogging.git",
--- 	branch = "v1.2.0",
--- }
 description	= {
 	summary	= "A simple API to use logging features",
 	detailed	= [[
